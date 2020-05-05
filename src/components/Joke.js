@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default (joke) => {
+export default ({joke}) => {
     return <li>{joke}</li>;
 }
